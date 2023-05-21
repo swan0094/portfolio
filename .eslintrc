@@ -1,0 +1,35 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"plugin:vue/vue3-essential",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"@vue/eslint-config-typescript",
+		"@vue/eslint-config-prettier"
+	],
+	"parser": "vue-eslint-parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"plugins": ["vue", "@typescript-eslint"],
+	"ignorePatterns": ["vite.config.ts", "node_modules", "dist"],
+	"rules": {
+		"@typescript-eslint/array-type": 2,
+		"@typescript-eslint/no-explicit-any": 2,
+		"@typescript-eslint/await-thenable": 2,
+		"@typescript-eslint/promise-function-async": 2,
+		"@typescript-eslint/no-non-null-assertion": 0,
+		"no-restricted-imports": [
+			"error",
+			{
+				"patterns": ["**/data/characters"]
+			}
+		],
+		"vue/no-deprecated-slot-attribute": 0,
+		"tslint.enable": 0
+	}
+}
