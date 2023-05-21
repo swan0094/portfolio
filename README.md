@@ -1,46 +1,53 @@
-# giftIdeaGenerator
+# Alex Swan's Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+<!-- ![Portfolio Banner](portfolio_banner.jpg) -->
 
-## Recommended IDE Setup
+Welcome to my GitHub portfolio! I am **Alex Swan**, a full stack developer with expertise in **JavaScript (JS)**, **TypeScript (TS)**, **Vue.js**, **C#**, and **SQL**. This portfolio showcases my skills and projects, all built using TypeScript with Vue 3 Composition API.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## About Me
 
-## Type Support for `.vue` Imports in TS
+I am a passionate developer with a strong foundation in web development. My experience spans across front-end and back-end technologies, enabling me to build end-to-end solutions. I thrive in collaborative environments and enjoy tackling complex problems to deliver high-quality software.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Projects
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Here are some highlighted projects from my portfolio:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Project 1: Portfolio Vue App
 
-## Customize configuration
+<!-- - Description: A feature-rich web application built with Vue.js and TypeScript, demonstrating my proficiency in Vue 3 Composition API and state management.
+- GitHub Repository: [awesome-vue-app](https://github.com/bobsanchez/awesome-vue-app)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Project 2: C# API Backend
 
-## Project Setup
+- Description: A robust RESTful API backend developed with C# and SQL, showcasing my skills in server-side development and database management.
+- GitHub Repository: [csharp-api-backend](https://github.com/bobsanchez/csharp-api-backend)
 
-```sh
-npm install
-```
+### Project 3: TypeScript Utility Library
 
-### Compile and Hot-Reload for Development
+- Description: A collection of TypeScript utility functions and classes that I created to enhance code reusability and improve development efficiency.
+- GitHub Repository: [typescript-utility-library](https://github.com/bobsanchez/typescript-utility-library) -->
 
-```sh
-npm run dev
-```
+Please refer to the respective GitHub repositories for more details and code samples.
 
-### Type-Check, Compile and Minify for Production
+## Skills
 
-```sh
-npm run build
-```
+- JavaScript (JS)
+- TypeScript (TS)
+- Vue.js
+- C#
+- SQL
+- Git
 
-### Lint with [ESLint](https://eslint.org/)
+## Contact Me
 
-```sh
-npm run lint
-```
+If you are interested in collaborating on a project or have any questions, feel free to reach out to me:
+
+- Email: [swan0094@gmail.com](mailto:swan0094@gmail.com)
+- LinkedIn: [Alex Swan](https://www.linkedin.com/in/alex-swan-developer)
+<!-- - Portfolio Website: [www.bobsanchez.com](https://www.bobsanchez.com) -->
+
+I look forward to connecting with you!
+
+---
+
+Thank you for visiting my portfolio. Let's create amazing things together!
