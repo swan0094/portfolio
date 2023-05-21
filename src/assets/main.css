@@ -1,0 +1,17 @@
+html, body, #app, .app {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    inset: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.app {
+    background-color: #E5EAF5;
+    color: #494D5F;
+    padding: 50px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}

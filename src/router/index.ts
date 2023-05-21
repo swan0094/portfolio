@@ -9,11 +9,6 @@ const router = createRouter({
 			component: async () => import("../views/HomePage.vue"),
 		},
 		{
-			path: "/welcome",
-			name: "welcome",
-			component: async () => import("../views/WelcomePage.vue"),
-		},
-		{
 			path: "/about",
 			name: "about",
 			component: async () => import("../views/AboutMe.vue"),
