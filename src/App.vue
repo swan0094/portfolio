@@ -1,14 +1,14 @@
 <template>
 	<div class="app" :class="darkMode ? 'dark' : ''">
 		<MenuBar @toggleDarkMode="darkMode = !darkMode" />
-		<PageContent></PageContent>
+		<HomePage></HomePage>
 	</div>
 </template>
 
 <script setup lang="ts">
 	import MenuBar from "./components/MenuBar.vue";
-	import PageContent from "./components/PageContent.vue";
 	import { Ref, ref } from "vue";
+	import HomePage from "./views/HomePage.vue";
 
 	const darkMode: Ref<boolean> = ref(true);
 </script>

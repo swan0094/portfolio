@@ -1,16 +1,16 @@
 <template>
-	<div class="pageContent">
-		<RouterView />
-	</div>
+	<div class="pageContent"></div>
 </template>
 
-<script setup lang="ts">
-	import { RouterView } from "vue-router";
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 	.pageContent {
 		width: -webkit-fill-available;
 		width: -moz-available;
+		flex-grow: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

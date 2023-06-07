@@ -1,6 +1,5 @@
 <template>
-	<header></header>
-	<main>ABOUT ME</main>
+	<div></div>
 </template>
 
 <script setup lang="ts"></script>

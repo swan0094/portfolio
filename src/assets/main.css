@@ -2,13 +2,14 @@ html, body, #app, .app {
     height: 100%;
     padding: 0;
     margin: 0;
-    position: absolute;
-    inset: 0;
+    position: relative;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
 
 .app {
+    display: flex;
+    flex-direction: column;
     background-color: #E5EAF5;
     color: #494D5F;
     padding: 50px;

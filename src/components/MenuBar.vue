@@ -1,12 +1,7 @@
 <template>
 	<header>
-		<img src="../assets/icon.png" style="height: 50px; width: 100px" />
-		<nav>
-			<router-link to="/">Home</router-link>
-			<router-link to="/about">About Me</router-link>
-			<router-link to="/projects">Projects</router-link>
-			<router-link to="/resume">Resume</router-link>
-		</nav>
+		<v-btn variant="text" density="compact" size="x-large" rounded="lg" class="text-none">Alex</v-btn>
+		<nav><a href="/html/">Home</a> | <a href="/css/">About me</a> | <a href="/js/">Skills</a> | <a href="/python/">Contact me</a></nav>
 		<label class="switch">
 			<input type="checkbox" @change="$emit('toggleDarkMode')" />
 			<span class="slider"></span>
