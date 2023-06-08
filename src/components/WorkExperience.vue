@@ -7,21 +7,13 @@
 		</v-tabs>
 		<v-window v-model="tab">
 			<v-window-item :value="1">
-				<v-container fluid>
-					<v-row>
-						<v-col>
-							<v-img :src="educationImage" aspect-ratio="1"></v-img>
-						</v-col>
-					</v-row>
+				<v-container>
+					<v-img :src="educationImage" :width="800" aspect-ratio="1"></v-img>
 				</v-container>
 			</v-window-item>
 			<v-window-item :value="2">
-				<v-container fluid>
-					<v-row>
-						<v-col>
-							<v-img :src="experienceImage" aspect-ratio="1"></v-img>
-						</v-col>
-					</v-row>
+				<v-container>
+					<v-img :src="experienceImage" :width="800" aspect-ratio="1"></v-img>
 				</v-container>
 			</v-window-item>
 		</v-window>
