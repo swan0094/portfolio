@@ -1,11 +1,11 @@
 <template>
 	<div class="headingName">
-		<h5>Hi, I'm Alex Swan</h5>
-		<h6>Full Stack Software Developer</h6>
+		<h3>Hi, I'm Alex Swan</h3>
+		<h4>Full Stack Software Developer</h4>
 		<v-btn rounded="xl" append-icon="fas fa-comment">Lets Talk!</v-btn>
 		<v-btn icon="fa-brands fa-linkedin-in" variant="plain"></v-btn>
 		<v-btn icon="fa-brands fa-github" variant="plain"></v-btn>
-		<v-btn append-icon="fas fa-arrow-down" prepend-icon="fas fa-computer-mouse" variant="plain">Scroll down</v-btn>
+		<v-btn append-icon="fas fa-arrow-down" prepend-icon="fas fa-computer-mouse" variant="plain" :ripple="false">Scroll down</v-btn>
 	</div>
 	<AboutMe></AboutMe>
 	<MySkills></MySkills>
@@ -14,8 +14,8 @@
 
 <script setup lang="ts">
 	import AboutMe from "@/components/AboutMe.vue";
-	import MyProjects from "@/components/MyProjects.vue";
-	import MySkills from "@/components/MySkills.vue";
+	import MyProjects from "@/components/WorkExperience.vue.js";
+	import MySkills from "@/components/TopSkills.vue.js";
 </script>
 
 <style scoped lang="scss">
