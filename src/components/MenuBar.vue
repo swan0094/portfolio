@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<v-btn variant="text" density="compact" size="x-large" rounded="lg" class="text-none">Alex</v-btn>
-		<nav><a href="/html/">Home</a> | <a href="/css/">About me</a> | <a href="/js/">Skills</a> | <a href="/python/">Contact me</a></nav>
+		<nav><a href="/html/">Home</a> | <a href="/css/">About me</a> | <a href="/js/">Skills</a> | <a href="/python/">Experience</a></nav>
 		<label class="switch">
 			<input type="checkbox" @change="$emit('toggleDarkMode')" />
 			<span class="slider"></span>

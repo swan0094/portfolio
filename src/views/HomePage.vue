@@ -14,8 +14,8 @@
 
 <script setup lang="ts">
 	import AboutMe from "@/components/AboutMe.vue";
-	import MyProjects from "@/components/WorkExperience.vue.js";
-	import MySkills from "@/components/TopSkills.vue.js";
+	import MyProjects from "@/components/WorkExperience.vue";
+	import MySkills from "@/components/TopSkills.vue";
 </script>
 
 <style scoped lang="scss">
